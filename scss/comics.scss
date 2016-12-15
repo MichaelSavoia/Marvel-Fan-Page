@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box; 
+}
+
+body{
+	background-color: #161616;
+	font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+
+	header{
+		height: 90px;
+		background-color: white;
+		text-transform: uppercase;
+		border-bottom: 4px solid #20B7F0;
+		color: #EE0C1C;
+
+		h1{
+			font-family: 'Bangers', cursive;
+			margin: 12px 0;
+			font-size: 6rem;
+			a{
+				color: #EE0C1C;
+			}
+		}
+
+		nav{
+
+			#menuIcon{
+				display: none;
+				font-size: 5rem;
+				height: 100%;
+
+				&:hover{
+					color: lighten(#EE0C1C, 10%);
+				}
+			}
+
+			ul{
+				font-family: 'Bangers', cursive;
+				text-align: right;
+				font-size: 3rem;
+				margin: 17px 0;
+				z-index: 999999;
+
+				li{
+					display: inline-block;
+					padding: 10px 15px;
+					a{
+						color: #EE0C1C;
+					}
+				}
+			}
+		}
+	}
+}
+
+.featured{
+	padding-top: 50px;
+
+	.featuredComic{
+		text-align: center;
+		border-radius: 25px;
+		padding: 30px;
+		margin-bottom: 80px;
+		height: 900px;
+
+		h2{
+			font-family: 'Bangers', cursive;
+			color: #F4C136;
+			padding: 15px 10px;
+			margin: 0;
+			font-size: 7rem;
+		}
+
+		img{
+			height: 400px;
+			width: auto;
+			max-width: 100%;
+			padding: 20px;
+		}
+
+		h4{
+			font-weight: 300;
+			font-size: 2rem;
+			padding-bottom: 10px;
+			color: #20B7F0;
+			border-bottom: 1px solid lightgrey;
+		}
+
+		span{
+			font-weight: 300;
+			color: white;
+		}
+	}
+
+}
+
+@media(max-width:768px){
+	.container-fluid{
+	header{
+		nav{
+			#menuIcon{
+				display: inline-block;
+				float: right;
+				padding-right: 15px;
+				padding-left: 80px;
+				padding-top: 8px;
+				padding-bottom: 8px;
+			}
+
+			ul{
+				display: none;
+				position: absolute;
+				padding: 20px;
+				background: white;
+				border: 4px solid #20B7F0;
+				right: 0px;
+				top: 70px;
+				width: 50%;
+
+				li{
+					font-size: 2rem;
+					text-align: center;
+					a{
+						text-align: center;
+						width: 100%;
+						padding: 10px 0;
+						margin: 0;
+					}
+				}
+			}
+
+			&:hover{
+				ul{
+					display: block;
+					li{
+						display:block;
+					}
+				}
+			}
+		}
+	}
+}
+	.featured{
+		.featuredComic{
+			height:auto;
+		}
+	}
+}
