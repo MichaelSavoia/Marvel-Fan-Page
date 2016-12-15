@@ -58,6 +58,14 @@ body{
 .featured{
 	padding-top: 50px;
 
+	h2{
+			font-family: 'Bangers', cursive;
+			color: #F4C136;
+			padding: 15px 10px;
+			margin: 0;
+			font-size: 7rem;
+		}
+
 	.featuredCharacter{
 		text-align: center;
 		background-color: white;
@@ -66,13 +74,13 @@ body{
 		padding: 30px;
 		margin-bottom: 80px;
 
-		h2{
-			font-family: 'Bangers', cursive;
-			color: #F4C136;
-			padding: 15px 10px;
-			margin: 0;
-			font-size: 7rem;
-		}
+		// h2{
+		// 	font-family: 'Bangers', cursive;
+		// 	color: #F4C136;
+		// 	padding: 15px 10px;
+		// 	margin: 0;
+		// 	font-size: 7rem;
+		// }
 
 		img{
 			height: auto;

@@ -37,6 +37,12 @@ body {
 
 .featured {
   padding-top: 50px; }
+  .featured h2 {
+    font-family: 'Bangers', cursive;
+    color: #F4C136;
+    padding: 15px 10px;
+    margin: 0;
+    font-size: 7rem; }
   .featured .featuredCharacter {
     text-align: center;
     background-color: white;
@@ -44,12 +50,6 @@ body {
     border: 6px solid #EE0C1C;
     padding: 30px;
     margin-bottom: 80px; }
-    .featured .featuredCharacter h2 {
-      font-family: 'Bangers', cursive;
-      color: #F4C136;
-      padding: 15px 10px;
-      margin: 0;
-      font-size: 7rem; }
     .featured .featuredCharacter img {
       height: auto;
       width: 100%;
